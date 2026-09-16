@@ -1,0 +1,83 @@
+{
+    "dictionary_sha256": "b6b934272c4d315ec32051797f9b024d34e33fa0570cccfafd8cc68acc1d8c6d",
+    "cases": [
+        {
+            "name": "minimal tagline",
+            "payload": {
+                "tagline": "Hello subnet"
+            },
+            "json": "{\"tagline\":\"Hello subnet\"}",
+            "encoded_ts": "TAOAppv1:Q07XHqk5OfnQFpZSLQA",
+            "encoded_py": "TAOAppv1:Q07XHqk5OfnQFpZSLQA"
+        },
+        {
+            "name": "links and tags",
+            "payload": {
+                "tagline": "Decentralized inference for everyone",
+                "category": "inference",
+                "tags": ["llm", "inference", "api"],
+                "links": {
+                    "x": "https://x.com/example",
+                    "telegram": "https://t.me/example",
+                    "docs": "https://docs.example.ai/",
+                    "github": "https://github.com/example/subnet"
+                }
+            },
+            "json": "{\"tagline\":\"Decentralized inference for everyone\",\"category\":\"inference\",\"tags\":[\"llm\",\"inference\",\"api\"],\"links\":{\"x\":\"https://x.com/example\",\"telegram\":\"https://t.me/example\",\"docs\":\"https://docs.example.ai/\",\"github\":\"https://github.com/example/subnet\"}}",
+            "encoded_ts": "TAOAppv1:Q07XLuhnQEPrSvBoDagHmp-XSjjt5-TkKumgyCQWZBLIDakViaCyHU-mQKhAyxvgEWaoLHh7EP4ECFUJHTJQqq0FAA",
+            "encoded_py": "TAOAppv1:Q07XLuhnQEPrSvBoDagHCuxiEE77OTm5QB6yDLC3SyA3pFYkgsp2PJkCoQItb4BHmKGy4O1B-BMgVCV0yECpthYA"
+        },
+        {
+            "name": "full about page",
+            "payload": {
+                "tagline": "Confidential Decentralized AI Cloud",
+                "category": "compute",
+                "tags": ["inference", "gpu", "confidential"],
+                "links": {
+                    "x": "https://x.com/targon",
+                    "docs": "https://docs.targon.com/"
+                },
+                "about": {
+                    "title": "Targon",
+                    "subtitle": "Confidential Decentralized AI Cloud",
+                    "problem": "Current AI infrastructure lacks security guarantees for sensitive workloads. Traditional cloud platforms cannot provide verifiable computation or protect proprietary models and data during execution, creating trust and security barriers for enterprise AI deployment.",
+                    "solution": "Targon provides a secure AI infrastructure platform leveraging Confidential Compute (CC) and Protected PCIe (PPCIE) technology. Hardware-enforced security enables verifiable and trustworthy operations across the entire decentralized infrastructure.",
+                    "validators": "Orchestrate competitive bidding rounds where miners submit price proposals for secure compute resources. Verify hardware attestation and security guarantees while selecting the most cost-effective bids.",
+                    "miners": "Compete in price bidding auctions to provide secure AI infrastructure using NVIDIA Confidential Compute or PPCIE technology. Submit competitive bids that drive down costs while maintaining hardware-enforced memory encryption.",
+                    "future": ["Coming soon"],
+                    "benchmark": {
+                        "benchmark_description": "Maximize the number of LLM tokens processed.",
+                        "benchmark_url": "https://targon.com/stats",
+                        "benchmark_button_text": "View stats"
+                    },
+                    "team": [
+                        {
+                            "name": "Team Targon",
+                            "description": "Core contributors"
+                        }
+                    ],
+                    "read_more": [
+                        {
+                            "title": "Docs",
+                            "subtitle": "Getting started",
+                            "url": "https://docs.targon.com/"
+                        }
+                    ]
+                }
+            },
+            "json": "{\"tagline\":\"Confidential Decentralized AI Cloud\",\"category\":\"compute\",\"tags\":[\"inference\",\"gpu\",\"confidential\"],\"links\":{\"x\":\"https://x.com/targon\",\"docs\":\"https://docs.targon.com/\"},\"about\":{\"title\":\"Targon\",\"subtitle\":\"Confidential Decentralized AI Cloud\",\"problem\":\"Current AI infrastructure lacks security guarantees for sensitive workloads. Traditional cloud platforms cannot provide verifiable computation or protect proprietary models and data during execution, creating trust and security barriers for enterprise AI deployment.\",\"solution\":\"Targon provides a secure AI infrastructure platform leveraging Confidential Compute (CC) and Protected PCIe (PPCIE) technology. Hardware-enforced security enables verifiable and trustworthy operations across the entire decentralized infrastructure.\",\"validators\":\"Orchestrate competitive bidding rounds where miners submit price proposals for secure compute resources. Verify hardware attestation and security guarantees while selecting the most cost-effective bids.\",\"miners\":\"Compete in price bidding auctions to provide secure AI infrastructure using NVIDIA Confidential Compute or PPCIE technology. Submit competitive bids that drive down costs while maintaining hardware-enforced memory encryption.\",\"future\":[\"Coming soon\"],\"benchmark\":{\"benchmark_description\":\"Maximize the number of LLM tokens processed.\",\"benchmark_url\":\"https://targon.com/stats\",\"benchmark_button_text\":\"View stats\"},\"team\":[{\"name\":\"Team Targon\",\"description\":\"Core contributors\"}],\"read_more\":[{\"title\":\"Docs\",\"subtitle\":\"Getting started\",\"url\":\"https://docs.targon.com/\"}]}}",
+            "encoded_ts": "TAOAppv1:Q07XRJwGjpr0YWOUiISPnBnSC0pBypEMJZAnIGesYiZ_8CAy0gGsWBNRCEwzkpeJ8xAitY0edQ5buYma70bquefo5c3wOQYdueQc7ueU61FcNZBywDieagT9DGk81Qp4YBiiCEtNEgJqFcILPFS3ghveSKc0FeOpIEBzhKglpnsq9AISyFUaGHUGZlEMrEMA",
+            "encoded_py": "TAOAppv1:Q07XRJwGjpr0YWOUiISPnBnSC0pBypEMJZAnIGesYiZ_8CAy0gGsWBNRCEwzkpeJ8xAitY0edQ5buYma70bquefo5c3wOQYdueQc7ueU61FcNZBywDieagT9DGk81Qp4YBiiCEtNEgJqFcILPFS3ghveSKc0FeOpIEBzhKglpnsq9AISyFUaGHUGZlEMrEMA"
+        },
+        {
+            "name": "multi-byte text",
+            "payload": {
+                "tagline": "τao — 日本語 🚀 ünïcödé",
+                "tags": ["τ", "ß"]
+            },
+            "json": "{\"tagline\":\"τao — 日本語 🚀 ünïcödé\",\"tags\":[\"τ\",\"ß\"]}",
+            "encoded_ts": "TAOAppv1:Q07X51sS8xUeNUxReDZ96bM5a16smqfwYf6sBoXDe_IOr08-vC3l8EqkNH6-RUlH6fB8pdhaAA",
+            "encoded_py": "TAOAppv1:Q07X51sS8xUeNUxReDZ96bM5a16smqfwYf6sBoXDe_IOr08-vC3l8EqkNH6-Bcg5PF8pthYA"
+        }
+    ]
+}
